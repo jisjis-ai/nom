@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://your-background-image-url.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #00FF00;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 1px solid #00FF00;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+    margin: 20px;
+}
+
+span {
+    color: #00FF00;
+    font-size: small;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header {
+    color: #00FF00;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.input-field .input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    color: #00FF00;
+    font-size: 15px;
+    padding: 0 15px;
+    background: rgba(0, 0, 0, 0.5);
+    outline: none;
+    margin: 10px 0;
+}
+
+i {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    color: #00FF00;
+}
+
+::-webkit-input-placeholder {
+    color: #00FF00;
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: rgba(0, 255, 0, 0.7);
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 10px;
+}
+
+.submit:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.two-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #00FF00;
+    font-size: small;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.one {
+    display: flex;
+}
+
+label a {
+    text-decoration: none;
+    color: #00FF00;
+    font-size: small;
+}

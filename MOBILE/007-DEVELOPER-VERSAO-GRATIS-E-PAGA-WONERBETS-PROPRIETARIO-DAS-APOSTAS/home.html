@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a img {
+            border: 2px solid #333; /* Adiciona uma borda às imagens */
+            height: 500px; /* Altura fixa das imagens */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .image-container a {
+            flex: 1;
+            margin: 10px;
+            width: auto; /* Largura ajustável para manter a proporção 1:1 */
+            text-align: center; /* Centraliza o texto */
+            position: relative; /* Permite posicionar o título de forma relativa */
+        }
+
+        /* Estilos para o título das imagens */
+        .image-title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+        /* Estilos para o ícone flutuante do WhatsApp */
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: green;
+            color: white;
+            border-radius: 50%;
+            padding: 10px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo à OwnerBets!</h1>
+        <p>Aqui você encontrará duas versões do nosso serviço:</p>
+        
+        <!-- Imagem para OwnerBets Free -->
+        <div class="image-container">
+            <a href="free.html">
+                <img src="images/bets.jpg" alt="OwnerBets Free">
+                <div class="image-title">Owner Free</div>
+            </a>
+            
+            <!-- Imagem para OwnerBets Beta -->
+            <a href="pagamentos.html">
+                <img src="images/owner.jpg" alt="OwnerBets Beta">
+                <div class="image-title">Owner Beta</div>
+            </a>
+        </div>
+        
+        <p>Clique na imagem acima para saber mais sobre as versões Free e Beta. A versão Beta é paga e oferece recursos adicionais exclusivos.</p>
+    </div>
+
+    <!-- Ícone flutuante do WhatsApp -->
+    <a class="whatsapp-icon" href="https://chat.whatsapp.com/JFq6jX0XBATLEigzhZY20w" target="_blank">WhatsApp</a>
+</body>
+</html>

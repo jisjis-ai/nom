@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Cards</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <div class="card">
+    <h2 class="card-title">Notificação Global</h2>
+    <input id="global-titulo-input" class="card-input" type="text" placeholder="Título">
+    <input id="global-mensagem-input" class="card-input" type="text" placeholder="Mensagem">
+    <button id="global-enviar-button" class="send-button">Enviar Notificação</button>
+  </div>
+  
+  <div class="card">
+    <h2 class="card-title">Notificação para Usuário Específico</h2>
+    <input id="especifico-titulo-input" class="card-input" type="text" placeholder="Título">
+    <input id="especifico-mensagem-input" class="card-input" type="text" placeholder="Mensagem">
+    <input id="especifico-refid-input" class="card-input" type="text" placeholder="Ref ID">
+    <button id="especifico-enviar-button" class="send-button">Enviar Notificação</button>
+  </div>
+  
+
+  <div class="card">
+    <h2 class="card-title">Lista de Animais</h2>
+    <div class="grid-container">
+      <div class="grid-item">
+        <p>Águia</p>
+        <p>5, 6, 7, 8</p>
+      </div>
+      <div class="grid-item">
+        <p>Avestruz</p>
+        <p>1, 2, 3, 4</p>
+      </div>
+      <!-- Outros animais e números aqui -->
+      <div class="grid-item">
+        <p>Borboleta</p>
+        <p>13, 14, 15, 16</p>
+      </div>
+      <div class="grid-item">
+        <p>Burro</p>
+        <p>9, 10, 11, 12</p>
+      </div>
+      <div class="grid-item">
+        <p>Cabra</p>
+        <p>21, 22, 23, 24</p>
+      </div>
+      <div class="grid-item">
+        <p>Cachorro</p>
+        <p>17, 18, 19, 20</p>
+      </div>
+      <div class="grid-item">
+        <p>Camelo</p>
+        <p>29, 30, 31, 32</p>
+      </div>
+      <div class="grid-item">
+        <p>Carneiro</p>
+        <p>25, 26, 27, 28</p>
+      </div>
+      <div class="grid-item">
+        <p>Cavalo</p>
+        <p>41, 42, 43, 44</p>
+      </div>
+      <div class="grid-item">
+        <p>Cobra</p>
+        <p>33, 34, 35, 36</p>
+      </div>
+      <div class="grid-item">
+        <p>Coelho</p>
+        <p>37, 38, 39, 40</p>
+      </div>
+      <div class="grid-item">
+        <p>Elefante</p>
+        <p>45, 46, 47, 48</p>
+      </div>
+      <div class="grid-item">
+        <p>Galo</p>
+        <p>49, 50, 51, 52</p>
+      </div>
+      <div class="grid-item">
+        <p>Gato</p>
+        <p>53, 54, 55, 56</p>
+      </div>
+      <div class="grid-item">
+        <p>Jacaré</p>
+        <p>57, 58, 59, 60</p>
+      </div>
+      <div class="grid-item">
+        <p>Leão</p>
+        <p>61, 62, 63, 64</p>
+      </div>
+      <div class="grid-item">
+        <p>Macaco</p>
+        <p>65, 66, 67, 68</p>
+      </div>
+      <div class="grid-item">
+        <p>Pavão</p>
+        <p>73, 74, 75, 76</p>
+      </div>
+      <div class="grid-item">
+        <p>Peru</p>
+        <p>77, 78, 79, 80</p>
+      </div>
+      <div class="grid-item">
+        <p>Porco</p>
+        <p>69, 70, 71, 72</p>
+      </div>
+      <div class="grid-item">
+        <p>Tigre</p>
+        <p>85, 86, 87, 88</p>
+      </div>
+      <div class="grid-item">
+        <p>Touro</p>
+        <p>81, 82, 83, 84</p>
+      </div>
+      <div class="grid-item">
+        <p>Urso</p>
+        <p>89, 90, 91, 92</p>
+      </div>
+      <div class="grid-item">
+        <p>Vaca</p>
+        <p>97, 98, 99, 0</p>
+      </div>
+      <div class="grid-item">
+        <p>Veado</p>
+        <p>93, 94, 95, 96</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 class="card-title">Sorteio</h2>
+    <button class="draw-button">Sortear</button>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>  
+  <script src="js/firebase.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

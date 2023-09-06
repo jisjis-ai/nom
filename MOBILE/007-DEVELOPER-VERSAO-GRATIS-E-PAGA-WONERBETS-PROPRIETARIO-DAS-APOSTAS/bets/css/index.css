@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: green;
+  font-family: "Courier New", monospace;
+}
+
+#borda {
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+#hora {
+  font-size: 24px;
+}
+
+#porteiro {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+#resultado {
+  font-size: 20px;
+  margin-top: 20px;
+}
