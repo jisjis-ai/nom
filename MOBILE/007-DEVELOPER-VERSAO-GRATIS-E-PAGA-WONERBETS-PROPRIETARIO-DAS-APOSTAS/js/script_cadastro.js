@@ -52,7 +52,7 @@ cadastrarBtn.addEventListener('click', function() {
     })
     .then(function() {
       // Quando os dados forem salvos com sucesso, redireciona o usuário para index.html
-      window.location = "MOBILE/007-DEVELOPER-VERSAO-GRATIS-E-PAGA-WONERBETS-PROPRIETARIO-DAS-APOSTAS/index.html";
+      window.location = "index.html";
     })
     .catch((error) => {
       // Se ocorrer um erro ao criar o usuário, exibe uma mensagem de erro
